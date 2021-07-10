@@ -2,6 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+## makeCacheMatrix is the first and main function I used
+## I used "dj" as a variable for null
+## The function makeCacheMatrix includes; set = set, get = get, setInverse = setInverse, getInverse = getInverse
 
 makeCacheMatrix <- function(x = matrix()) {
         dj <- NULL
@@ -17,6 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
+## I used cacheSolve as a function to calculate inverse
+## cacheSolve will then retrieve the inverse from the cache
 
 cacheSolve <- function(x, ...) {
         dj <- x$getInverse()
